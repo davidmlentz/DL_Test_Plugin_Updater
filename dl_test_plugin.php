@@ -21,8 +21,8 @@ $updater->initialize();
 
 function DL_test_plugin($content) {
 
+	echo "hello, world"
 
 }
 
-add_filter('the_content', 'DL_Test_Plugin_Updater', 20);
-add_filter('the_excerpt', 'DL_Test_Plugin_Updater', 20);
+add_shortcode('dl_test', 'DL_test_plugin');
