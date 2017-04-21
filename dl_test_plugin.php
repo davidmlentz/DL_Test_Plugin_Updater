@@ -3,7 +3,7 @@
 Plugin Name: DL Test Plugin
 Description: Testing plugin development
 Plugin URI: https://davidmlentz.github.io
-Version: 0.0.3
+Version: 0.0.4
 Author: David Lentz
 Author URI: https://davidmlentz.github.io
 */
