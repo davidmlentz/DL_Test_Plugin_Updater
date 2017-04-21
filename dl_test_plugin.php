@@ -3,7 +3,7 @@
 Plugin Name: DL Test Plugin
 Description: Testing plugin development
 Plugin URI: https://davidmlentz.github.io
-Version: 0.0.1
+Version: 0.0.2
 Author: David Lentz
 Author URI: https://davidmlentz.github.io
 */
@@ -21,7 +21,7 @@ $updater->initialize();
 
 function DL_test_plugin($content) {
 
-	echo "hello, world"
+	echo "hello, world";
 
 }
 
